@@ -5,7 +5,7 @@
 
 🏁Location: Minsk, Belarus
 
-☎️* Contact information:
+* Contact information:
     + Telegram: @ketchupanez
     + Git: ketchupanez
 
