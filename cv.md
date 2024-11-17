@@ -21,3 +21,6 @@ Unfortunately, I have no experience in this field at the moment, but I will stud
 
 Work experience: NONE
 
+Education: BSUIR
+
+English: A2
