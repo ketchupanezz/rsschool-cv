@@ -115,17 +115,17 @@
 int main() {
     double x = 14.26, y = -1.22, z = 3.5e-2, a, b, c, t;
 
-    cout << "press 1 to test, else";
+    cout &lt;&lt; "press 1 to test, else";
     if (_getch() != '1') {
-        cout << "Input x, y, z" << endl;
-        cin >> x >> y >> z;
+        cout &lt;&lt; "Input x, y, z" &lt;&lt; endl;
+        cin &gt;&gt; x &gt;&gt; y &gt;&gt; z;
     }
 
     a = 2 * cos(x - PI / 6);
     b = 0.5 + pow(sin(y), 2);
     c = 1 + z * z / (3 - z * z / 5);
     t = a / b * c;
-    cout << "\n Result=" << t << endl;
+    cout &lt;&lt; "\n Result=" &lt;&lt; t &lt;&lt; endl;
 }
                 </pre>
             </div>
