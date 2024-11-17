@@ -1,0 +1,181 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(255, 241, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 100px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-sizing: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+
+.container .rightSide {
+    position: relative;
+    background-color: lightsalmon;
+    padding: 40px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.profileText .img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .img img {
+   position: relative
+   top 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.profileText h1 {
+color: rgb(151, 35, 0);
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+}
+
+.profileText h1 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.title {
+    color: rgb(151, 35, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: crimson;
+}
+
+.contactInfo ul li span {
+    color: black;
+    font-weight: 300;
+}
+
+.education li {
+margin-bottom: 15px;
+}
+
+.education h3 {
+    color: #000;
+    font-weight: 300;
+}
+
+.lang .percent {
+ position: relative;
+ width: 100%;
+ height: 6px;
+ background-color: rgba(141, 33, 0, 0.315);
+ display: block;
+ margin-top: 5px;
+}
+
+.lang .percent div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(151, 35, 0);
+}
+
+.container .leftSide {
+    position: relative;
+    background-color: rgba(255, 212, 196, 0.966);
+    padding: 40px;
+}
+
+.aboutMe {
+    margin-bottom: 20px;
+
+}
+
+.aboutMe:last-child {
+    margin-bottom: 0;
+
+}
+
+.title2 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.text2 {
+    color: rgba(0, 0, 0, 0.555);
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+pre {
+    font-size: 1.1em;
+    font-weight: 300;
+
+    border: dotted;
+    padding: 15px;
+     
+}
