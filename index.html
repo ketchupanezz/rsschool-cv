@@ -58,21 +58,15 @@
                 <ul>
                     <li>
                         <span class="text">English</span>
-                        <span class="percent">
-                            <div style="width: 20%;"></div>
-                        </span>
+                        <span class="percent english-bar"></span>
                     </li>
                     <li>
                         <span class="text">Belarusian</span>
-                        <span class="percent">
-                            <div style="width: 80%;"></div>
-                        </span>
+                        <span class="percent belarusian-bar"></span>
                     </li>
                     <li>
                         <span class="text">Russian</span>
-                        <span class="percent">
-                            <div style="width: 100%;"></div>
-                        </span>
+                        <span class="percent russian-bar"></span>
                     </li>
                 </ul>
             </div>
@@ -95,23 +89,23 @@
                 <h2 class="title2">Professional Skills</h2>
                 <div class="box">
                     <h4>HTML</h4>
-                    <div class="percent"></div>
+                    <div class="percent html-bar"></div>
                 </div>
                 <div class="box">
                     <h4>CSS</h4>
-                    <div class="percent"></div>
+                    <div class="percent css-bar"></div>
                 </div>
                 <div class="box">
                     <h4>Figma</h4>
-                    <div class="percent"></div>
+                    <div class="percent figma-bar"></div>
                 </div>
                 <div class="box">
                     <h4>C++</h4>
-                    <div class="percent"></div>
+                    <div class="percent cpp-bar"></div>
                 </div>
                 <div class="box">
                     <h4>Java</h4>
-                    <div class="percent"></div>
+                    <div class="percent java-bar"></div>
                 </div>
             </div>
 
@@ -121,17 +115,17 @@
 int main() {
     double x = 14.26, y = -1.22, z = 3.5e-2, a, b, c, t;
 
-    cout << "press 1 to test, else";
+    cout &lt;&lt; "press 1 to test, else";
     if (_getch() != '1') {
-        cout << "Input x, y, z" << endl;
-        cin >> x >> y >> z;
+        cout &lt;&lt; "Input x, y, z" &lt;&lt; endl;
+        cin &gt;&gt; x &gt;&gt; y &gt;&gt; z;
     }
 
     a = 2 * cos(x - PI / 6);
     b = 0.5 + pow(sin(y), 2);
     c = 1 + z * z / (3 - z * z / 5);
     t = a / b * c;
-    cout << "\n Result=" << t << endl;
+    cout &lt;&lt; "\n Result=" &lt;&lt; t &lt;&lt; endl;
 }
                 </pre>
             </div>
